@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Instagram</title>
+
+        <style>
+
+            body{
+                background-image: url('imgs/main.jpg');
+                background-repeat: no-repeat;
+                background-position: 28% -5%;
+                background-size: 420px 630px;
+            }
+            .main-box{
+                padding: 0px;
+                padding-left: 30px;
+                padding-right: 60px;
+                padding-bottom: 50px;
+                border: 1px solid rgb(221,220,220);
+                width: 250px;
+                height: 350px;
+                background-color: rgba(var(--d87,255,255,255));
+                
+            }
+            .insta{
+                position: absolute;
+                width: 65%;
+                height: 20%;
+                top: 3%;
+                left:18%;
+            }
+            body{
+                position: absolute;
+                top: 8%;
+                left: 49%;
+                background-color: rgb(255, 255, 255);
+            }
+            button{
+                position: absolute;
+                padding: 0px;
+                border-radius: 5px;
+                border: white;
+                height:9%;
+                left: 34px;
+                cursor: pointer;
+                color: white;
+                background-color: rgb(18, 173, 245);
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 16px;
+                width: 81%;
+
+            }
+            input {
+                padding: 8px;
+                border: 1px solid rgb(220,220,220);
+                position: relative;
+                width: 150%;
+                height: 17px;
+                background: #fafafa;
+                font-size: 12px;
+
+            }
+            h4 {
+                font-family: calibri light;
+                position: relative;
+                opacity: 40%;
+
+            }
+            a {
+                text-decoration: none;
+                font-family: calibri light;
+            }
+            #fff {
+                position: absolute;
+                width: 16px;
+                height: 19px;
+                top: 75%;
+                left: 27%;
+            }
+            .login-withfacebook{
+                font-weight: 500;
+                font-size: 15px;
+                color: #2d4374;
+                font-family: 'Roboto',sans-serif;
+            }
+            .reset-passw{
+                position: absolute;
+                left: 35%;
+                font-size: 15px;
+                color: #2668aa;
+            }
+            .sign-up {
+                border: 2px solid rgb(219, 220, 220);
+                padding-left: 20px;
+                padding-right: 70px;
+                padding-bottom: 5px;
+                background: white;
+                position: absolute;
+                top: 96%;
+                width: 250px; 
+                text-align: right;
+                font-family: 'Roboto',sans-serif;
+                font-size: 14px;
+            }
+            .sign-up a{
+                color: #3f9df5;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            .get-app {
+                position: absolute;
+                top: 110%;
+                left: 40%;
+                font-family: 'Roboto'sans-serif;
+                font-size: 15px;
+            }
+            .app-store {
+                position: absolute;
+                top: 120%;
+                left: 5%;
+                width: 155px;
+                height: 40px;
+
+            }
+            .google-play {
+                position: absolute;
+                top: 120%;
+                left: 52%;
+                width: 155px;
+                height: 40px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="main-box">
+            <img src="imgs/inst.jpg" class="insta">
+            <br><br><br><br><br><br><br>
+            <form>
+                <table>
+                    <div class="user">
+                    <tr>
+                        <td>
+                        <input type="text/number" placeholder="Phone number,username, or email">
+                        
+                        </td>
+                    </tr>
+                    </div>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                        <input type="password" placeholder="Password">   
+                        </td>
+                        
+                    </tr>
+                </table>
+                <br>
+                <button type="submit">Log In</button>
+            </form>
+            <br>
+            <br>
+            <h4>_________________OR_______________</h4>
+            <a href="https://ru-ru.facebook.com/">
+                <img src="imgs/fff.jpg" id="fff">
+            </a>
+            <ul>
+            <ul>
+            <a class="login-withfacebook" href="https://ru-ru.facebook.com/">Log in with Facebook</a>
+
+            <ul>
+            <br>
+            <ul><a class="reset-passw" href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a>
+        </div>
+        <br>
+        <div class="sign-up">
+            <p>Don't have an account yet?<a href="https://www.instagram.com/accounts/emailsignup/"> Sign up </a>
+            </p>
+        </div>
+            <div class="get-app">
+            <p>Get the app</p>
+        </div>
+        <br>
+        <a href="https://apps.apple.com/" target="blank"><img src="imgs/download.jpg" class="app-store"></a> 
+        <a href="https://play.google.com/" target="blank"><img src="imgs/gpp.jpg" class="google-play"></a>
+
+    </body>
+</html>
