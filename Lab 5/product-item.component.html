@@ -1,0 +1,45 @@
+<h1 class="panel-heading">Products</h1>
+
+<div *ngFor="let product of products" class="panel">
+
+<div class="">
+
+    <h3 class="">
+        <a [title]="product.name + ' details'">
+            {{ product.name }}
+        </a>
+    
+    </h3>
+    
+    <p class="">
+    <img src= "{{ product.image }}">
+    </p>
+<br>
+    <h3 class="menu-label">
+     {{product.description}}
+    </h3>
+
+    <h3>
+        {{product.price | currency}}
+    </h3>
+    
+    <h4>
+        {{ product.rating}}
+
+    </h4>
+    
+    <a href="{{product.href}}" class="message">
+        <button type="button"> Share!</button>
+    </a>
+    <br>
+
+    <a href ="{{product.link}}">
+        Click me to buy!
+    </a>
+    
+</div>
+    
+</div>
+
+
+
